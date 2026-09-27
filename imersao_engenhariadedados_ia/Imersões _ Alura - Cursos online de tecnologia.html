@@ -1,0 +1,2435 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura" class="
+theme-dark
+">
+
+<head>
+	
+<script>
+(function () {
+  function normalizeTheme(theme) {
+    return theme === "light" ? "light" : "dark";
+  }
+
+  const match = document.cookie.match(/(?:^|; )user-theme=([^;]*)/);
+  let theme = "dark";
+
+  if (match) {
+    try {
+      theme = normalizeTheme(decodeURIComponent(match[1]));
+    } catch (error) {
+      theme = "dark";
+    }
+  }
+
+  document.documentElement.classList.add("theme-" + theme);
+})();
+</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+	
+		
+
+
+
+
+
+
+    
+        
+            <!-- Google Tag Manager -->
+            <script>
+                ;(function(w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({
+                        'gtm.start': new Date().getTime(),
+                        event: 'gtm.js'
+                    });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s);
+                    j.async = true;
+                    j.src = "https://stape.alura.com.br/aqukryqvi.js?" + i;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayerAlura', '9e=ABJMPiYmWD89OiYuPjlTB1REX0hUB0gVCAIQNRMSEAMoGgQLE00RH1QXHQwAClsSBhtfGwA%3D');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+        
+    
+
+
+    <script>
+        let dataLayerAlura = window.dataLayerAlura || [];
+        dataLayerAlura.push({
+            'event': 'virtual_page_view',
+            'page_category': 'Imersões',
+            
+            
+            
+                
+                    
+                        
+                        'user_id':'9191947',
+                        'email':'932660656094913b3eba8373bf99b43e6b7309ca4e6b68d2748b19e6b826e80d',
+                        'type': 'B2C'
+                    
+                    
+                
+            
+        });
+    </script>
+
+
+
+
+
+
+
+	
+
+	
+
+
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments);
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "j5yix797ro");
+    </script>
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+	<title>Imersões | Alura - Cursos online de tecnologia</title>
+
+	<link rel="shortcut icon" href="/assets/images/alura/favicon.ico">
+
+	
+
+	<script>
+		window.getSpriteSvgPath = window.getSpriteSvgPath || function() {
+			return '/assets/icons/sprite.svg?v=v2' || '/assets/icons/sprite.svg';
+		};
+	</script>
+
+	<link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:400,300,600,700,800|Source+Serif+Pro' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/lib/video-js.w.062f9578bd.css">
+		<link rel="stylesheet" href="/assets/css/lib/silvermine-videojs-quality-selector.min.w.de928d55d6.css">
+		<link rel="stylesheet" href="/assets/css/classPage/menuSettings.w.0af399eaf3.css">
+		<style type="text/css">
+			.video-js .vjs-play-progress {
+				background-color: #2A7AE4;
+			}
+		</style>
+	
+
+	<link rel="stylesheet" href="/assets/css/lib/prettify.w.e207c5226b.css">
+	<link rel="stylesheet" href="/assets/external-libs/highlightjs/github.w.7eada5b91a.css">
+
+	<link rel="stylesheet" href="/assets/css/base.w.23243363e5.css">
+
+	<link rel="stylesheet" href="/assets/css/block/container.w.d658d37280.css">
+	<link rel="stylesheet" href="/assets/css/block/header.w.9eb08eb255.css">
+	<link rel="stylesheet" href="/assets/css/block/headerDesktop.w.1162c6081f.css">
+	<link rel="stylesheet" href="/assets/css/block/headerNews.w.d37ac86551.css">
+	<link rel="stylesheet" href="/assets/css/block/headerList.w.56eb15ad6c.css">
+	<link rel="stylesheet" href="/assets/css/block/headerUnlogged.w.a6e7896d03.css">
+	<link rel="stylesheet" href="/assets/css/block/footer.w.5b8be05455.css">
+	
+	<link rel="stylesheet" href="/assets/css/block/checkbox.w.c882ae44e8.css">
+	<link rel="stylesheet" href="/assets/css/block/paginator.w.a04b77e2de.css">
+	<link rel="stylesheet" href="/assets/css/block/profileAvatar.w.22b32f67f6.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBox.w.fa6a42cbe6.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBoxWithBanner.w.06c984ef85.css">
+	<link rel="stylesheet" href="/assets/css/block/courseLogo.w.6aa18fa562.css">
+	<link rel="stylesheet" href="/assets/css/block/courseSectionList.w.0c2acf9d69.css">
+	<link rel="stylesheet" href="/assets/css/block/button.w.947ac44d78.css">
+	<link rel="stylesheet" href="/assets/css/block/seeMoreButton.w.e8d7033de0.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBar.w.be54084e86.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBall.w.104c194da4.css">
+	<link rel="stylesheet" href="/assets/css/block/showOpenAnswerExercise.w.d6a6de7640.css">
+	<link rel="stylesheet" href="/assets/css/block/showMultipleChoiceAnswerExercise.w.6004ed86e5.css">
+	<link rel="stylesheet" href="/assets/css/block/card.w.de50956ae6.css">
+	<link rel="stylesheet" href="/assets/css/block/lightCard.w.84d9a92a26.css">
+	<link rel="stylesheet" href="/assets/css/block/cardList.w.040465dbaf.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.w.84459acf29.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuidePercentageCard.w.44eaf48fdc.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardList.w.c3624e544b.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCardList.w.c671911647.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardBig.w.260de6f1b1.css">
+	<link rel="stylesheet" href="/assets/css/block/courseRateCard.w.d1644df48e.css">
+	<link rel="stylesheet" href="/assets/css/block/cardCategory.w.cb94e06f0f.css">
+	<link rel="stylesheet" href="/assets/css/block/alert.w.94f2c7586d.css">
+	<link rel="stylesheet" href="/assets/css/block/careerHeader.w.2e3c1b2d51.css">
+	<link rel="stylesheet" href="/assets/css/block/careerCourses.w.304e1b4108.css">
+	<link rel="stylesheet" href="/assets/css/block/learningStepContentList.w.6deb0599b1.css">
+	<link rel="stylesheet" href="/assets/css/block/levelMenu.w.1eedc4efd0.css">
+	<link rel="stylesheet" href="/assets/css/block/pointsGraphic.w.96b3a86679.css">
+	<link rel="stylesheet" href="/assets/css/block/forumDiscussions.w.37260486bc.css">
+	<link rel="stylesheet" href="/assets/css/block/forumList.w.c76ffc3da2.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionContent.w.5ece306ddd.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionVideo.w.f85bc925cd.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionMenu.w.3be73ce57e.css">
+	<link rel="stylesheet" href="/assets/css/block/elasticMedia.w.cefb09c009.css">
+	<link rel="stylesheet" href="/assets/css/block/formattedText.w.e2ea9ed68a.css">
+	<link rel="stylesheet" href="/assets/css/block/exerciseContent.w.5b83473db3.css">
+	<link rel="stylesheet" href="/assets/css/block/starRating.w.3725271609.css">
+	<link rel="stylesheet" href="/assets/css/block/markdownEditor.w.73fd00c430.css">
+	<link rel="stylesheet" href="/assets/css/block/styledSelect.w.26d741c633.css">
+	<link rel="stylesheet" href="/assets/css/block/assessment.w.9fab016a4b.css">
+	<link rel="stylesheet" href="/assets/css/block/audioPlayer.w.3d600af921.css">
+	<link rel="stylesheet" href="/assets/css/block/search.w.def91c28d6.css">
+	<link rel="stylesheet" href="/assets/css/search/querySuggestion.w.a789b5fcd4.css">
+	<link rel="stylesheet" href="/assets/css/block/banner.w.0f326da170.css">
+	<link rel="stylesheet" href="/assets/css/block/bannerDetails.w.c48e9f28d2.css">
+	<link rel="stylesheet" href="/assets/css/block/vote.w.636537db62.css">
+	<link rel="stylesheet" href="/assets/css/block/form.w.c558fcd46c.css">
+	<link rel="stylesheet" href="/assets/css/block/modal.w.527856d2a0.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideProgresses.w.a04efa53f7.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCard.w.0386646672.css">
+	<link rel="stylesheet" href="/assets/css/block/progressTracker.w.58283a528d.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.w.84459acf29.css">
+	<link rel="stylesheet" href="/assets/css/block/companyLayoutCustomization.w.a455c4186d.css">
+	<link rel="stylesheet" href="/assets/css/block/breadcrumb.w.8c6f133dcc.css">
+	<link rel="stylesheet" href="/assets/css/pages/discussion/topic-breadCrumb.w.38f213fed2.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/licenseAgreement.w.a6481918f4.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/alertLicenseCard.w.6e92b4bce1.css">
+	<link rel="stylesheet" href="/assets/css/learningGuide/guideCard.w.c02acd0fab.css">
+
+	
+    <link rel="stylesheet" href="/assets/css/immersion/classPage.w.c6d8622638.css">
+    <link rel="stylesheet" href="/assets/css/classPage/genericVideo.w.21c22ab6a7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/chatbot/monokai-theme-hljs.w.cd30ec65cc.css">
+    <link rel="stylesheet" href="/assets/css/chatbot/chatbot.w.23db07d477.css">
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/css/classPage/dark-mode.w.8e83ff4ccc.css">
+
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/block/headerAluraDark.w.923d08e725.css">
+		<link rel="stylesheet" href="/assets/css/aluradark/aluradarkTheme.w.be9d6a6268.css">
+	
+
+	
+
+	
+
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/newUI/base/buttons.w.c0de11a5a4.css">
+		<link rel="stylesheet" href="/assets/css/newUI/components/icon.w.6b9141b5ad.css">
+		<link rel="stylesheet" href="/assets/css/newUI/components/input.w.aa02bbfcf7.css">
+		<link rel="stylesheet" href="/assets/css/newUI/base/tokens.w.9c8165f27f.css">
+		<link rel="stylesheet" href="/assets/css/newUI/base/utilities.w.1aa9f71976.css">
+		<link rel="stylesheet" href="/assets/css/newUI/base/utilities.responsive.w.e170bf8f47.css">
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/newUI/header/engagementMenu.w.dfbc0379f5.css">
+		<link rel="stylesheet" href="/assets/css/newUI/components/dropdown.w.360c3c53a5.css">
+		<link rel="stylesheet" href="/assets/css/block/bannerTitleEngagement.w.266ac60121.css">
+		<link rel="stylesheet" href="/assets/css/menu/engagementMenu.w.46123d539f.css">
+	
+
+	
+
+	
+
+	<!-- Remove cookie banner from hubspot -->
+	<style>
+
+		div#hs-eu-cookie-confirmation {
+			display: none;
+		}
+	</style>
+
+	
+		<link rel="stylesheet" href="/assets/css/assessment/assessmentDashboardSection.w.121a547916.css">
+		<link rel="stylesheet" href="/assets/css/assessment/selfAssessment/selfAssessmentDashboardSection.w.5fa6c3ff1f.css">
+	
+
+</head>
+
+<body class=" ">
+<span data-return-to-top="Voltar ao topo" class="back-to-top-label" style="display:none" aria-hidden="true"></span>
+<script src="/assets/js/shared/theme.w.49fec8f094.js"></script>
+<script src="/assets/js/avatarOnError.w.25025101d7.js"></script>
+
+
+	
+
+
+
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://stape.alura.com.br/ns.html?id=GTM-NTLWWLR"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+    
+
+
+<script src="/assets/js/courseIconFallback.w.115a8ed257.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+
+	
+		
+
+		
+
+		
+
+		
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <header class="bg-surface-quaternary text-subtle font-sans w-full text-sm header__menu "
+            style=" ">
+
+        <div class="flex items-center justify-between pr-7 pl-1 header__menu-container main-content-ultrawide-shell">
+
+            <div class="flex items-center gap-3 header__first-section">
+                <div class="-mobile-only">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--ghost
+
+
+ui-btn--icon
+ui-btn--rounded
+
+header__menu-hamburger -mobile-only
+"
+                type="submit"
+                
+                
+                
+                aria-label="Abrir menu de navegacao"
+                aria-controls="header-mobile-nav"
+                aria-expanded="false"
+                
+                
+                id="234"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#menu" />
+</svg>
+
+
+
+
+            
+
+            
+        </button>
+    
+
+
+
+                </div>
+                <div class="pl-6 gap-5 flex items-center header__company-logo-container">
+                    <a href="/dashboard">
+                        
+                            
+                                <svg class="header__logo-alura header__logo-alura-svg logo-alura" xmlns="http://www.w3.org/2000/svg" width="107" height="32" fill="currentColor" viewBox="0 0 107 32" aria-label="alura" role="img">
+                                    <path fill="currentColor" d="M21.733 32 15.4 5.655c-.2-.8-.462-1.314-.796-1.57-.338-.261-.902-.388-1.735-.388-.832 0-1.396.127-1.734.387-.335.261-.597.775-.796 1.57L4.007 32H0L6.556 4.72a6.011 6.011 0 0 1 2.287-3.42C10.003.438 11.356 0 12.868 0c1.513 0 2.865.438 4.025 1.3 1.157.86 1.924 2.011 2.287 3.426l6.557 27.273H21.73h.003ZM34.233 0H30.34v32h3.894V0ZM47.924 32c-2.582 0-4.596-.702-5.985-2.084-1.389-1.383-2.094-3.387-2.094-5.957V8.844h3.894v14.717c0 1.35.102 2.313.305 2.942.226.692.662 1.176 1.295 1.437.581.242 1.472.358 2.716.358h9.385V8.844h3.894V32h-13.41ZM66.954 32V16.885c0-2.566.745-4.567 2.218-5.949 1.48-1.386 3.6-2.092 6.305-2.092h4.392v3.699h-4.701c-1.244 0-2.135.12-2.717.358-.632.264-1.069.745-1.294 1.437-.207.63-.305 1.592-.305 2.941v14.717h-3.895l-.003.004ZM91.158 32a5.467 5.467 0 0 1-2.836-.767 5.88 5.88 0 0 1-2.073-2.063 5.391 5.391 0 0 1-.77-2.822c0-1.158.338-2.233 1.003-3.2a5.542 5.542 0 0 1 2.629-2.076l13.908-5.312-.029-.279a5.723 5.723 0 0 0-.222-1.14c-.225-.691-.662-1.176-1.294-1.44-.582-.242-1.473-.358-2.717-.358H85.925V8.844h12.523c2.706 0 4.825.702 6.305 2.092 1.473 1.382 2.218 3.383 2.218 5.949v10.523c0 1.27-.44 2.327-1.338 3.239-.901.908-1.97 1.35-3.272 1.35H91.165l-.007.003Zm-.618-7.317c-.502.177-.811.384-.96.64-.138.236-.204.605-.204 1.155 0 .734.12 1.198.375 1.451.254.253.701.373 1.41.373h11.196c.131 0 .32-.036.502-.217a.698.698 0 0 0 .218-.5v-7.704L90.54 24.683Z"/>
+                                </svg>
+                            
+                            
+                        
+                    </a>
+
+                    
+                </div>
+            </div>
+            <div class="flex items-center gap-1 header__search">
+                
+
+
+
+
+<section id="headerBusca" class="bg-surface-brand rounded-full relative search-box" aria-label="Busca">
+    
+        
+        
+        <div class="search-box__container  flex items-center p-0_5 pl-5 -desktop-only">
+            
+            <form action="/search" id="headerBusca-form" class="w-full ">
+                <div tabindex="0" class="">
+                    <div class="flex justify-between items-center ">
+                        <div class="w-full  search-box__input-wrapper--with-clear">
+                            
+                            
+                            <input type="search" class="skipKeyPress text-title font-sans text-sm w-full border-none search-box__input search-box__input--with-clear" id="headerBusca-campoBusca"
+                                   name="query"
+                                   autocomplete="off"
+                                   placeholder='O que você quer aprender?'
+                                   aria-label="Barra de pesquisa para buscar o termo desejado ">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--ghost
+
+
+ui-btn--icon
+ui-btn--rounded
+
+hidden search-box__clear-button
+"
+                type="button"
+                
+                
+                
+                aria-label="Limpar campo de busca"
+                
+                
+                
+                
+                id="headerBusca-clear-button"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#x" />
+</svg>
+
+
+
+
+            
+
+            
+        </button>
+    
+
+
+
+                            </div>
+                        <div class="flex gap-1 items-center ">
+                            <div>
+                                
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--secondary
+
+
+ui-btn--icon
+ui-btn--rounded
+
+flex search__button-inside-input search-and-send-data
+"
+                type="submit"
+                
+                
+                
+                aria-label="Realizar a pesquisa do termo digitado "
+                
+                
+                
+                
+                id="234"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#search" />
+</svg>
+
+
+
+
+            
+
+            
+        </button>
+    
+
+
+
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="header-nextarch-suggestions-dropdown" class="search-box__suggestions" role="listbox" aria-label="Sugestoes de busca"></div>
+        <div id="header-nextarch-suggestions-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+    
+</section>
+
+
+                <div class="header__search-close-btn">
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--ghost
+
+ui-btn--miniature
+ui-btn--icon
+ui-btn--rounded
+
+header__search-button-close -mobile-only
+"
+                type="submit"
+                
+                
+                
+                aria-label="Fechar busca"
+                aria-controls="headerBusca"
+                aria-expanded="true"
+                
+                
+                id="234"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#x" />
+</svg>
+
+
+
+
+            
+
+            
+        </button>
+    
+
+
+
+                </div>
+            </div>
+
+            <div class="flex gap-7 header__second-section">
+                <nav class="flex items-center header__options" aria-label="Navegacao principal">
+                        <ul class="flex gap-5">
+                            <li class="items-center -desktop-only">
+                                <a href="/dashboard"
+                                   class="items-center text-sm no-underline text-subtle-2 header__navigation-link">Início</a>
+                            </li>
+
+                            <li class="items-center -desktop-only">
+                                
+                                    <a href="/catalog"
+                                       class="items-center text-sm no-underline text-subtle-2 header__navigation-link">Explorar Catálogo</a>
+                                
+                            </li>
+                        </ul>
+                </nav>
+
+                <div class="flex items-center gap-3">
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <a
+                href="/explore"
+                class="
+ui-btn
+ui-btn--secondary
+
+
+ui-btn--icon
+ui-btn--rounded
+
+-desktop-only flex bg-surface-brand  header-news_button notification-not-seen
+"
+                
+                
+                
+                aria-label="Novidades, voce tem novidades nao lidas"
+                id="234"
+                data-exists-notification="true"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#bell" />
+</svg>
+
+
+
+
+            
+
+            
+        </a>
+    
+
+    
+
+
+
+                    
+
+                    <div class="flex items-center gap-3 header__buttons">
+                        
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--secondary
+
+ui-btn--miniature
+ui-btn--icon
+ui-btn--rounded
+
+header__options-search-button flex -mobile-only
+"
+                type="submit"
+                
+                
+                
+                aria-label="Abrir busca"
+                aria-controls="headerBusca"
+                aria-expanded="false"
+                
+                
+                id="234"
+                
+        >
+            
+                
+
+
+
+
+
+
+
+<svg class="icon-xs "
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#search" />
+</svg>
+
+
+
+
+            
+
+            
+        </button>
+    
+
+
+
+                        
+
+                        <div class="header__profile relative inline-block">
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<div
+    class="ds-dropdown relative inline-block "
+    data-dropdown
+    data-dropdown-menu-align="right"
+    data-dropdown-menu-position="absolute"
+    data-state="closed"
+    id="headerProfileDropdown"
+>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        <button
+                class="
+ui-btn
+ui-btn--link
+ui-btn--default
+
+
+ui-btn--square
+
+ds-dropdown__trigger rounded p-0
+"
+                type="button"
+                
+                
+                
+                aria-label="Abrir menu do perfil"
+                aria-controls="headerProfileDropdown-menu"
+                aria-expanded="false"
+                aria-haspopup="false"
+                data-dropdown-trigger
+                id="234"
+                
+        >
+            
+
+            
+                
+        
+            
+                <img
+                        class="ds-dropdown__trigger-image header__profile-picture rounded-full block"
+                        src="https://www.gravatar.com/avatar/5c803c36d5db2b52dbbc53b228cd958c.png?r=PG&size=60x60&date=2026-09-21&d=404"
+                        alt="Foto de perfil de Alexandre Guerra"
+                        data-gravatar-fallback="https://www.gravatar.com/avatar/5c803c36d5db2b52dbbc53b228cd958c.png?r=PG&size=60x60&date=2026-09-21&d=404"
+                        onerror="handleAvatarError(this)"
+                />
+                <span style="display:none" class="header__profile-picture header__profile-placeholder inline-flex items-center justify-center bg-surface-brand text-brand-primary border-solid-default font-medium no-wrap rounded-full">
+                        AG
+                </span>
+            
+            
+        
+
+        
+
+        
+    
+            
+        </button>
+    
+
+
+
+
+    <ul
+        class="ds-dropdown__menu absolute top-0 right-0 bg-surface-brand w-72 rounded opacity-0 z-dropdown pointer-events-none header__profile-dropdown-menu p-6 backdrop-blur-default border-0 shadow-2xl "
+        role="list"
+        id="headerProfileDropdown-menu"
+        data-dropdown-menu
+        aria-hidden="true"
+        tabindex="-1"
+    >
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<li class="list-none pb-3 border-b border-subtle">
+    <div id="theme-switcher-heading" class="sr-only">Tema</div>
+
+    <div class="flex flex-col sm:flex-row gap-1" role="group" aria-labelledby="theme-switcher-heading">
+        <button
+                type="button"
+                class="border-none rounded-md text-left text-title flex items-center justify-between gap-2 pl-5 pr-4 py-1 cursor-pointer transition w-full bg-surface-tertiary text-body hover:bg-surface-secondary sm:w-1/2"
+                data-theme-switcher-option="dark"
+                data-theme-active-classes="bg-surface-default text-title"
+                data-theme-inactive-classes="bg-surface-tertiary text-body hover:bg-surface-secondary"
+                aria-pressed="false">
+            <span class="flex items-center gap-2 flex-1 min-w-0">
+                
+
+
+
+
+
+
+
+<svg class="icon-xs shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#moon" />
+</svg>
+
+
+
+
+                <span class="font-sans text-sans-body-s font-normal leading-none">Dark mode</span>
+            </span>
+            <span class="block shrink-0 header__profile-radio" data-theme-switcher-indicator aria-hidden="true"></span>
+        </button>
+
+        <button
+                type="button"
+                class="border-none rounded-md text-left text-title flex items-center justify-between gap-2 pl-5 pr-4 py-1 cursor-pointer transition w-full bg-surface-tertiary text-body hover:bg-surface-secondary sm:w-1/2"
+                data-theme-switcher-option="light"
+                data-theme-active-classes="bg-surface-default text-title"
+                data-theme-inactive-classes="bg-surface-tertiary text-body hover:bg-surface-secondary"
+                aria-pressed="false">
+            <span class="flex items-center gap-2 flex-1 min-w-0">
+                
+
+
+
+
+
+
+
+<svg class="icon-xs shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#sun" />
+</svg>
+
+
+
+
+                <span class="font-sans text-sans-body-s font-normal leading-none">Light mode</span>
+            </span>
+            <span class="block shrink-0 header__profile-radio" data-theme-switcher-indicator aria-hidden="true"></span>
+        </button>
+    </div>
+</li>
+
+
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+<li
+    class=" list-none min-w-full border-b border-subtle lg:hidden"
+    
+    
+>
+    
+        <a href="/user/alexandre-fguerra-ia-br"
+           class="header__profile-menu-link header__profile-menu-link--profile hover:text-brand-primary flex items-center gap-2 w-full px-3 py-3 rounded-md text-title no-underline font-brand text-brand-label-l"
+           >
+            
+
+
+
+
+
+
+
+<svg class="icon-xs shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#circle-user" />
+</svg>
+
+
+
+
+            Minha Conta
+        </a>
+    
+</li>
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+    <li role="none" class="hidden lg:block list-none min-w-full">
+        <ul class="m-0 p-0 list-none">
+            
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+<li
+    class=" list-none min-w-full border-b border-subtle"
+    
+    
+>
+    
+        <a href="/user/alexandre-fguerra-ia-br"
+           class="header__profile-menu-link hover:text-brand-primary flex items-center gap-2 w-full px-3 py-3 rounded-md text-title no-underline font-brand text-brand-label-l"
+           >
+            
+
+
+
+
+
+
+
+<svg class="icon-xs shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#circle-user" />
+</svg>
+
+
+
+
+            Meu Perfil
+        </a>
+    
+</li>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+<li
+    class=" list-none min-w-full border-b border-subtle"
+    
+    
+>
+    
+        <a href="/user/payments"
+           class="header__profile-menu-link hover:text-brand-primary flex items-center gap-2 w-full px-3 py-3 rounded-md text-title no-underline font-brand text-brand-label-l"
+           >
+            
+
+
+
+
+
+
+
+<svg class="icon-xs shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#file-check-2" />
+</svg>
+
+
+
+
+            Meu Plano
+        </a>
+    
+</li>
+
+
+
+        </ul>
+    </li>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<li
+    class=" list-none min-w-full border-b-0"
+    
+    
+>
+    
+        <a href="/signout" class="header__profile-menu-link hover:text-brand-primary flex items-center gap-2 w-full px-3 py-3 rounded-md text-title no-underline font-brand text-brand-label-l">
+            
+
+
+
+
+
+
+
+<svg class="icon-xs hover:text-brand-primary shrink-0"
+     aria-hidden="true"
+     focusable="false">
+    <use href="/assets/icons/sprite.svg?v=v2#log-out" />
+</svg>
+
+
+
+
+           Sair
+        </a>
+    
+</li>
+
+
+    </ul>
+</div>
+
+<script>
+    function handleAvatarError(img) {
+        if (img.dataset.gravatarTried) {
+            img.style.display = 'none';
+            img.nextElementSibling?.style.setProperty('display', 'inline-flex');
+            return;
+        }
+        const gravatar = img.getAttribute('data-gravatar-fallback');
+        if (gravatar) {
+            img.dataset.gravatarTried = 'true';
+            img.src = gravatar;
+        } else {
+            img.style.display = 'none';
+            img.nextElementSibling?.style.setProperty('display', 'inline-flex');
+        }
+    }
+</script>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="header-mobile-nav" class="hidden absolute w-full z-dropdown py-4 px-3 header__first-section-only " aria-hidden="true">
+        <nav class="flex flex-col gap-5 header__hamburger-menu-options" aria-label="Links do menu principal">
+            <a href="/dashboard" class="no-underline text-body font-sans" aria-label="Início">Início</a>
+            <a href="/dashboard/career" class="no-underline text-body font-sans header__hamburger-item" aria-label="Carreira">Carreira</a>
+            
+                <a href="/catalog" class="no-underline text-body font-sans" aria-label="Explorar Catálogo">Explorar Catálogo</a>
+            
+            <a href="/history" class="no-underline text-body font-sans" aria-label="Cursos & Certificados">Cursos & Certificados</a>
+            <a href="/learning-guide/engagement" class="no-underline text-body font-sans" aria-label="Minhas Trilhas">Minhas Trilhas</a>
+            <a href="/events" class="no-underline text-body font-sans header__hamburger-item" aria-label="Eventos">Eventos</a>
+            
+            <a href="/explore" class="no-underline text-body font-sans header__hamburger-item flex items-center" aria-label="Novidades, voce tem novidades nao lidas">Novidades<span aria-hidden="true" class="notification-not-seen"></span></a>
+            
+        </nav>
+    </div>
+
+    <script src="/assets/js/newUI/header/menuHeader.w.ef045b74e7.js"></script>
+    <script src="/assets/js/newUI/header/searchSuggestions.w.cad5363365.js"></script>
+
+
+		
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+<section class="main-banner-title">
+    <div class="main-banner-title__container">
+        <h2 class="container__title">Imersões</h2>
+    </div>
+</section>
+	
+	
+
+
+
+
+<main class="class-page" data-immersion-class-id="234">
+
+    <div class="class-page__section">
+        <div class="class-page__header">
+            <h2 class="class-page__title class-page-main-title">Imersão Engenharia de Dados com IA</h2>
+            <h3 class="class-page__subtitle">Aula 02</h3>
+        </div>
+    </div>
+
+    <div class="class-page__section">
+        
+            
+                <section id="video" class="video-container">
+                    
+                    
+                    <div id="video-container-data"
+                         data-playback-rate=""
+                         data-immersion-class-title="Aula 02"
+                         data-immersion-class-id="234"
+                         data-immersion-name="Imersão Engenharia de Dados com IA"
+                         data-immersion-category-name="Dados"
+                         data-immersion-workload="3419"
+                         data-gnarus-name="alura"
+                         data-error-message='<p>Não foi possível reproduzir o vídeo. Para ter um diagnóstico mais detalhado entre na <a href="/video/diagnostic?immersionClassId=234">página de diagnóstico de video</a></p>'
+                         data-error-label='Não foi possível reproduzir o vídeo. Para ter um diagnóstico mais detalhado entre em /video/diagnostic?immersionClassId=234 diagnóstico de video'
+                         data-user-has-already-seen-the-class="true"
+                    >
+                        <div id="loading">
+                            <img src="/assets/images/video/vinheta-alura.png"
+                                 alt="Carregando vídeo"/>
+                            <img class="loading-spinning" src="/assets/images/gnarus/classPage/loading-video.svg"
+                                 alt="Ícone de vídeo em carregamento"/>
+                        </div>
+                    </div>
+                </section>
+            
+            
+        
+    </div>
+
+
+    
+    <div class="class-page__section">
+        <div class="class-page__grid">
+            
+                
+                    <a href="/imersoes/aulas/masterclass-c232" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked-green.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">MasterClass</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="/imersoes/aulas/aula-de-abertura-c233" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                        <p class="class_number">Aula 01:</p>
+                                        
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">Comece no Databricks e veja o que você vai construir</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="/imersoes/aulas/aula-02-c234" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                        <p class="class_number">Aula 02:</p>
+                                        
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked-green.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">Domine a Ingestão de Dados Brutos</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="/imersoes/aulas/aula-03-c235" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                        <p class="class_number">Aula 03:</p>
+                                        
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">Transforme Dados em Bases Confiáveis</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="/imersoes/aulas/aula-04-c236" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                        <p class="class_number">Aula 04:</p>
+                                        
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">Crie seu Agente de IA no Databricks</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="/imersoes/aulas/aula-05-c237" class="class-page__link">
+                        <div class="class-page__class-card">
+                            <div class="class-page__class_number">
+                                <div class="class_page__icon">
+                                    <img src="/assets/images/immersion/play-button.svg" class="class-page__icon"
+                                         alt="Ícone de play"/>
+                                    
+                                        <p class="class_number">Aula 05:</p>
+                                        
+                                    
+                                </div>
+                                <div>
+                                    <img src="/assets/images/immersion/checked-green.svg">
+                                </div>
+                            </div>
+                            <p class="class-page__class_title">Publique seu pipeline e desbrave sua Carreira em Dados com IA</p>
+                        </div>
+                    </a>
+                
+            
+        </div>
+    </div>
+
+    <div class="class-page__section">
+        <div class="class-page__header">
+            <h2 class="class-page__title class-page-upper">Domine a Ingestão de Dados Brutos</h2>
+            <h3 class="class-page__subtitle class-page-upper">
+                Participe e vá mais fundo
+            </h3>
+        </div>
+        <div class="class-page__description">
+            <div class="description-container">
+	<div class="title-description">
+		<h2>Introdução</h2>
+		<span class="arrow"></span>
+	</div>
+</div>
+<div class="description-text">
+	
+<p>Chegou a hora de mergulhar no ecossistema de Engenharia de Dados com o Databricks. Você vai entender como estruturar um projeto do zero, desde a configuração do ambiente até a criação de um pipelines de dados, utilizando Spark e Inteligência Artificial para transformar dados brutos em insights estratégicos.</p>
+<p>APROVEITE PARA ASSISTIR AGORA, A AULA ESTÁ DISPONÍVEL POR POUCOS DIAS! </p>
+<h1>Nesta aula, você vai:</h1>
+<ul><li>Entender a arquitetura medalhão (Bronze, Silver e Gold) e sua importância na governança de dados. </li><li>Descobrir como utilizar o Genie (IA do Databricks) para acelerar o desenvolvimento de códigos e análises. </li><li>Configurar catálogos, esquemas e volumes para organizar o seu Data Lake. </li><li>Iniciar o projeto prático da VoeBem Analytics com dados reais da ANAC. </li><li>Compreender os conceitos de Lakehouse, Delta Lake e a orquestração de pipelines automatizados. </li><li>Implementar a camada Bronze da Arquitetura Medalhão, compreendendo seu papel na ingestão e organização dos dados em um pipeline.</li></ul>
+<h1>Links importantes:</h1>
+<ul><li><a href="https://www.databricks.com/" rel="nofollow">Databricks</a>.</li><li><a href="https://www.gov.br/anac/pt-br/assuntos/dados-e-estatisticas/historico-de-voos" target="_blank" rel="nofollow noopener noreferrer">Base de Voos</a></li><li><a href="https://github.com/alura-cursos/imers-o_engenhariadedados_ia" target="_blank" rel="nofollow noopener noreferrer">Arquivos do Dataset</a></li><li><a href="https://github.com/Alura-Imersao-Engenharia-de-dados-2026/projeto-aviacao-anac" target="_blank" rel="nofollow noopener noreferrer">Códigos da Imersão</a></li></ul>
+<h1>Links importantes para você acompanhar a imersão</h1>
+<ul><li><a href="https://alura.tv/4gnqLuD" rel="nofollow">Acesse o Guia de Mergulho</a></li><li>Participe do canal do Whatsapp e fique por dentro de todas as novidades: <a href="https://whatsapp.com/channel/0029VbDuS8R89inava6SrZ34" target="_blank" rel="nofollow noopener noreferrer">Acesse aqui</a></li></ul>
+<h1>Aprofunde-se nos seguintes tópicos:</h1>
+<ul><li><a href="https://www.alura.com.br/artigos/o-que-pipeline-dados" target="_blank" rel="noopener noreferrer">O que é um pipeline de dados?</a></li><li><a href="https://www.alura.com.br/artigos/engenharia-dados" target="_blank" rel="noopener noreferrer">Engenharia de Dados</a></li><li><a href="https://www.alura.com.br/artigos/aplicacoes-sql-diversas-areas" target="_blank" rel="noopener noreferrer">Aplicações de SQL em diversas áreas</a></li><li><a href="https://www.databricks.com/br/blog/what-is-medallion-architecture" target="_blank" rel="nofollow noopener noreferrer">O que é a Arquitetura Medallion? | Databricks</a></li></ul>
+<h1>Divulgue seu projeto</h1>
+<p>Quem compartilha seus projetos ganha mais visibilidade no mercado. Poste seu progresso no LinkedIn e use a hashtag: <strong>#EngenhariadeDados</strong></p>
+<p>Assim você pode trocar experiências com outros participantes e até chamar a atenção de recrutadores.</p>
+<p>Estamos muito felizes de ter você aqui.</p>
+<p>Bom mergulho e até a próxima aula!</p>
+
+</div>
+
+        </div>
+    </div>
+
+    <div class="class-page__section">
+        <div class="class-page__header">
+            <h2 class="class-page__title class-page-upper">
+                Quem são os mergulhadores?
+            </h2>
+            <h3 class="class-page__subtitle class-page-upper">
+                Instrutores e Instrutoras da Alura nessa imersão
+            </h3>
+        </div>
+        <div class="class-page-image-logo"></div>
+        <div class="class-page__instructors">
+            
+                <div class="class-page__instructor">
+                    <h4 class="instructor__name">Agnes Ruescas</h4>
+                    <span class="instructor__bio">Engenheira de Dados</span>
+                    <div class="instructor__socials">
+                        
+                        
+                            <a href="https://www.linkedin.com/in/agnesruescas/" target="_blank" class="instructor__linkedin"></a>
+                        
+                        
+                    </div>
+                </div>
+            
+                <div class="class-page__instructor">
+                    <h4 class="instructor__name">Lucas Ribeiro Mata</h4>
+                    <span class="instructor__bio">Consultor de P&amp;D – CITI | Coordenador de IA – Alura</span>
+                    <div class="instructor__socials">
+                        
+                        
+                            <a href="https://www.linkedin.com/in/lucasribeiromata/" target="_blank" class="instructor__linkedin"></a>
+                        
+                        
+                    </div>
+                </div>
+            
+                <div class="class-page__instructor">
+                    <h4 class="instructor__name">Oscar Guillermo Richieri Meyer</h4>
+                    <span class="instructor__bio">Head of Data &amp; AI Solutions e Instrutor Alura</span>
+                    <div class="instructor__socials">
+                        
+                        
+                            <a href="https://www.linkedin.com/in/oscarmeyerdm/" target="_blank" class="instructor__linkedin"></a>
+                        
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="class-page__section">
+        <div class="class-page__header">
+            <h2 class="class-page__title class-page-upper">
+                Lives desta imersão!
+            </h2>
+            <h3 class="class-page__subtitle class-page-upper">
+                Reveja tudo que aconteceu durante as lives
+            </h3>
+        </div>
+        <div class="class-page__lives">
+            
+                <a href="https://www.youtube.com/watch?v=KwXPs92BZA0" class="class-page__live-card">
+                    <div class="live-video">
+                        <img class="live-video__image" src="https://img.youtube.com/vi/KwXPs92BZA0/0.jpg"
+                             alt="Live Thumbnail">
+                        <span class="live-video__type">Live no ar</span>
+                        <h3 class="live-video__name">Aula 01 + abertura</h3>
+                    </div>
+                </a>
+            
+                <a href="https://www.youtube.com/watch?v=bczBH6qXjfk" class="class-page__live-card">
+                    <div class="live-video">
+                        <img class="live-video__image" src="https://img.youtube.com/vi/bczBH6qXjfk/0.jpg"
+                             alt="Live Thumbnail">
+                        <span class="live-video__type">Live no ar</span>
+                        <h3 class="live-video__name">Aula 05 + encerramento</h3>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+<aside id="chatbot" class="chatbot-resizable animate" style="z-index: 100">
+    <div class="chatbot-cta">
+        <div class="chatbot-tooltip">E aí, precisa de ajuda?</div>
+        <img src="/assets/images/chatbot/luri-icon-cta.svg" alt="Luri">
+    </div>
+
+    <div class="chatbot-header">
+        <div class="chatbot-header__icon">
+            <img src="/assets/images/chatbot/luri-icon.svg" alt="Ícone da Luri">
+        </div>
+        <div class="chatbot-header__about">
+            <div class="chatbot-header__about_row">
+                <div class="chatbot-header__about-name">Luri</div>
+            </div>
+            <div class="chatbot-header__about-sub">Tem dúvidas sobre Luri? <a href="https://suporte.alura.com.br/conhe%C3%A7a-a-luri-nossa-intelig%C3%AAncia-artificial" target="_blank">Consulte nosso FAQ.</a></div>
+        </div>
+        <div class="chatbot-header_buttons_wrapper">
+            <button class="chatbot-header__expand-collapse_button">
+                <img src="/assets/images/chatbot/vector-expand.svg" alt="Expadir">
+            </button>
+            <button class="chatbot-header__close">
+                <img src="/assets/images/chatbot/close.svg" alt="Fechar">
+            </button>
+        </div>
+
+    </div>
+    
+    <div class="suggestion-main-container">
+        <div class="suggestion-luri-presentation">
+            <img src="/assets/images/chatbot/luri-icon.svg" alt="Ícone da Luri">
+            <p>Oi, eu sou a Luri :) Estou aqui para te ajudar caso tenha alguma dúvida no conteúdo da aula.</p>
+        </div>
+        <div class="chatbot-footer__questions">
+            
+                <button class="chatbot-footer__questions-item">Sugira um questionário a partir da aula</button>
+            
+                <button class="chatbot-footer__questions-item">Sugira um exercício a partir da aula</button>
+            
+        </div>
+    </div>
+
+    <div class="chatbot-body style-scroll"></div>
+    <div class="spotlight-large"></div>
+
+    <div class="chatbot-footer">
+        <div class="chatbot-footer__actions">
+            <button class="chatbot-footer__actions-btn chatbot-footer__actions-clean-conversation">Limpar conversa</button>
+        </div>
+
+        <div class="chatbot-footer__send-area">
+            <div class="chatbot-footer__send-area-input">
+                <textarea class="chatbot-footer__send-area-content style-scroll" rows="1" placeholder="Escreva sua mensagem..." ></textarea>
+            </div>
+            <button class="chatbot-footer__send-area-btn">
+                <img src="/assets/images/chatbot/icon-send.svg" alt="Enviar">
+            </button>
+        </div>
+        <div class="chatbot-footer__messages">
+            <div class="chatbot-footer__feedback">
+                <a href="https://tally.so/r/waeWvB" target="_blank">Enviar feedback</a>
+            </div>
+            <a href="/chatbot/conversations?courseCode=">Histórico de conversas</a>
+        </div>
+
+    </div>
+
+    <div class="chatbot-resizer"></div>
+</aside>
+    
+
+</main>
+
+
+
+
+
+
+
+
+
+	
+		
+		
+			<footer class="footer container footer-container-alura">
+				<a href="/dashboard" class="footer-logo">
+					
+
+
+
+
+
+
+
+    
+        
+        
+            
+            
+            
+            
+                <img class="header-logo header-logo-alura" src="/assets/images/logos/logo-alura.svg" alt="Logo da alura">
+            
+        
+    
+    
+
+
+				</a>
+
+                <ul class="footer-menu">
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/sobre" target="">Sobre a Alura</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/contato/" target="_blank">Central de Ajuda</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/artigos" target="_blank">Blog da Alura</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://forms.office.com/r/fLM3kQwT77" target="_blank">Sugira um curso ou carreira</a>
+                        </li>
+                    
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://discord.com/oauth2/authorize?client_id=1278070632013238334&response_type=code&redirect_uri=https%3A%2F%2Fcursos.alura.com.br%2Fdiscord%2Fcallback&scope=email+identify+guilds.join" target="_blank">
+                                Discord Alura
+                            </a>
+                        </li>
+                    
+                    <div class="links-fiap">
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://www.fiap.com.br/graduacao/?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">Graduação</a>
+                            </li>
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://postech.fiap.com.br/?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">Pós-Graduação</a>
+                            </li>
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://www.fiap.com.br/mba?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">MBA</a>
+                            </li>
+                        
+                    </div>
+                </ul>
+
+				<section role="presentation" class="footer-footerGroup">
+					
+						<div class="footer-links">
+							<h2 class="footer-links-title">Acompanhe-nos</h2>
+							<ul role="presentation" class="footer-socialMedia">
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://www.youtube.com/user/aluracursosonline" target="_blank" title="Youtube da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-youtube">
+												<use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-youtube"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://twitter.com/aluraonline" target="_blank" title="Twitter da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-twitter">
+												<use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-twitter"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://instagram.com/aluraonline" target="_blank" title="Instagram da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-instagram">
+												<use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-instagram"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://www.tiktok.com/@aluraonline" target="_blank" title="Tiktok da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-tiktok">
+												<use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-tiktok"/>
+											</svg>
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+					
+						<div class="footer-links">
+							<h2 class="footer-links-title">Apps</h2>
+							<ul class="footer-hotLinks-menu footer-hotLinks-mobile">
+								
+									<li class="footer-hotLinks-item">
+										<a class="footer-hotLinks-item-link" href="https://play.google.com/store/apps/details?id=br.com.alura.mobi&hl=pt_BR" target="_blank" title="Google Play Store">
+											<svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+												<use xlink:href="/assets/images/newUI/footer/icons-mobile.svg#icon-footer-googlePlay"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-hotLinks-item">
+										<a class="footer-hotLinks-item-link" href="https://itunes.apple.com/br/app/alura-cursos-online/id1225776635" target="_blank" title="Apple App Store">
+											<svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+												<use xlink:href="/assets/images/newUI/footer/icons-mobile.svg#icon-footer-appStore"/>
+											</svg>
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+				</section>
+			</footer>
+		
+	
+
+
+
+
+
+
+
+
+
+	
+	<!-- Hotjar Tracking Code for https://cursos.alura.com.br and https://bootcamps.alura.com.br -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:1638253,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+    
+
+
+<script src="/assets/external-libs/jquery/jquery-3.6.0.min.w.7c14a783df.js"></script>
+
+<script src="/assets/js/sectionMenu.w.b17e969593.js"></script>
+<script src="/assets/external-libs/buttonToggle.w.41524be9a8.js"></script>
+<script src="/assets/external-libs/caret.w.2e5c0c9d44.js" async></script>
+<script src="/assets/external-libs/purify.min.w.9cae9260da.js" ></script>
+
+<script src="/assets/external-libs/highlightjs/highlight.min.w.9b99da81ed.js" async></script>
+<script src="/assets/external-libs/highlightjs/highlight.init.w.5870d8cf46.js" async></script>
+
+<script src="/assets/js/dashboard/search.w.58a77490c6.js" async></script>
+<script src="/assets/js/search/QuerySuggestion.w.293d406034.js" async></script>
+<script src="/assets/js/dashboard/submitChatbotSearch.w.01a619f9aa.js" async></script>
+<script src="/assets/js/dashboard/news.w.ace9a4daff.js" async></script>
+<script src="/assets/js/dashboard/categoryExplorerCarousel.w.ba63268df6.js" async></script>
+
+<script src="/assets/js/points/populateGrid.w.32d140c07b.js"></script>
+<script src="/assets/js/points/makeHeaderPoints.w.d22d76f099.js"></script>
+<script src="/assets/js/block/preventsMultipleInteractions.w.19502e1912.js" async></script>
+<script src="/assets/js/block/assessment.w.98e894ccb6.js" async></script>
+<script src="/assets/js/block/login-form.w.55417db416.js" async></script>
+<script src="/assets/js/block/menuToggle.w.306a030c1d.js" async></script>
+<script src="/assets/js/block/headerToggle.w.a40dc59b4d.js" async></script>
+<script src="/assets/js/block/emptyMenuVerifier.w.eb84313cfa.js"></script>
+
+<script src="/assets/js/header/responsiveHeaderToggle.w.64352e9e74.js" async></script>
+
+<script src="/assets/js/Bookmark.w.dffe19dc11.js"></script>
+
+<script src="/assets/js/gnarus/classPage/aria.w.f116e8f245.js" async></script>
+
+<script src="/assets/js/extracontent/ExtraContentProgressRequest.w.d0c0e896eb.js"></script>
+
+
+
+
+	
+		<script src="/assets/external-libs/video/video.min.w.ea7aa2f38d.js"></script>
+		<script src="/assets/external-libs/video/silvermine-videojs-quality-selector.min.w.a5df5b2a6d.js"></script>
+		<script src="/assets/external-libs/video/dash.all.min.w.831efc7a09.js"></script>
+		<script src="/assets/external-libs/video/videojs-dash.min.w.a5cb38deff.js"></script>
+		<script src="/assets/js/classPage/menuSettings.w.fb011b3b3c.js"></script>
+		<script src="/assets/js/classPage/transcriptionToggle.w.afde441e0d.js"></script>
+		<script src="/assets/js/lastMomentManager.w.5f77493d2a.js"></script>
+		<script src="/assets/js/videos/VideoCaptionParser.w.0f9f263f36.js"></script>
+		<script src="/assets/js/videos/VideoPlayer.w.ddfdab619e.js"></script>
+		<script src="/assets/js/block/scroll-top.w.acd0a4742d.js"></script>
+		<script>
+			new VideoPlayer().build();
+		</script>
+	
+	
+
+
+<script src="/assets/js/block/audioPlayer.w.16c29a3cb1.js"></script>
+<script src="/assets/js/blackFriday/Countdown.w.37347565b8.js"></script>
+<script src="/assets/js/LearningContentMarkWatched.w.c9d0d69d37.js"></script>
+<script src="/assets/js/unloggedHome/licenseAgreement.w.12e6309bea.js"></script>
+
+<script>
+	
+	
+	let bookmark = new Bookmark();
+	bookmark.setMessages("Seguir trilha","Deixar de seguir trilha");
+	bookmark.refreshListener();
+</script>
+
+
+
+
+
+
+	<script src="/assets/js/newUI/dropdown.w.7e97d66361.js"></script>
+	<script src="/assets/js/newUI/accordion.w.5a597b91d5.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/assets/css/uploadImages/uploadImages.w.9ff7d1f962.css" rel="stylesheet" />
+
+<script src="/assets/js/uploadImages/UploadProgress.w.9715e5849f.js"></script>
+<script src="/assets/js/uploadImages/ImagesClient.w.0b2a623b38.js"></script>
+<script src="/assets/js/uploadDocuments/CourseDocumentsApiClient.w.d8e3dc473c.js"></script>
+
+<script src="/assets/external-libs/marked.min.w.c69e14e81a.js"></script>
+
+<script src="/assets/js/forum/enableForumButtons.w.b6a18ff52b.js"></script>
+
+<script>
+    var IMAGE_UPLOAD_MESSAGES = {
+        imageUploadMessageInit: `Anexe arquivos arrastando e soltando`,
+        imageUploadMessageDragEnter: `Solte a imagem para fazer o upload`,
+        imageUploadMessageDrop: `Enviando a imagem #images_names#`,
+        imageUploadMessageProgress: `Enviando o arquivo #images_names#: #progress#%`,
+        imageUploadMessageUploaded: `Arquivo enviado com sucesso!`,
+        imageUploadMessageSizeUnits: `MB`,
+        imageUploadMessageTag: `![Insira aqui a descrição dessa imagem para ajudar na acessibilidade](#url#) `
+    }
+</script>
+
+
+    
+        <link href="/assets/external-libs/hackeditor/hackeditor.min.w.fcf421a7b6.css" rel="stylesheet" />
+        <link href="/assets/external-libs/hackeditor/hackeditor.custom.w.44b3bf3fa3.css" rel="stylesheet" />
+        <link href="/assets/external-libs/highlightjs/github.w.7eada5b91a.css" rel="stylesheet" />
+
+        <script src="/assets/external-libs/hackeditor/hackeditor.min.w.fdc227ab0b.js"></script>
+        <script src="/assets/external-libs/hackeditor/hackeditor.custom.w.a30c4f5286.js"></script>
+        <script src="/assets/external-libs/highlightjs/highlight.min.w.9b99da81ed.js"></script>
+        <script>
+            const setupEditorsOnPage = (e) => {
+                const toolbarActionsHints = {
+                    toggleHeadingActionHint: `Título`,
+                    toggleBoldActionHint: `Negrito`,
+                    toggleItalicActionHint: `Itálico`,
+                    toggleOrderedListActionHint: `Lista ordenada`,
+                    toggleUnorderedListActionHint: `Lista não ordenada`,
+                    togglePreviewActionHint: `Pré-visualizar`,
+                    drawTableActionHint: `Inserir Tabela`,
+                    drawCodeActionHint: `Inserir bloco de código`,
+                    drawLinkActionHint: `Inserir Link`,
+                    drawImageActionHint: `Inserir Imagem`,
+                    drawUploadedImageActionHint: `Upload de imagem`,
+                    drawUploadedDocActionHint: `Upload de documento`,
+                    undoActionHint: `Desfazer`,
+                    redoActionHint: `Refazer`
+                }
+
+                const imageUploadErrors = {
+                    imageErrorLimit: `Você só pode inserir 5 imagens por vez!`,
+                    imageFileNotAllowed: `O arquivo filename não é permitido, apenas imagens!`,
+                    imageVeryLarge: `O arquivo filename é maior que o limite de 2 MB.`,
+                    imageMaliciousFile: `O arquivo filename contém conteúdo malicioso.`
+                }
+
+                const docUploadErrors = {
+                    docErrorLimit: `Você só pode inserir 5 documentos por vez!`,
+                    docFileNotAllowed: `O arquivo filename não é permitido!`,
+                    docVeryLarge: `O arquivo filename é maior que o limite de 5 MB.`,
+                    docMaliciousFile: `O arquivo filename contém conteúdo malicioso.`
+                }
+
+                window.editors = window.editors || [];
+
+                const editorsElements = window.editors.map(ed => ed.element.id);
+
+                const textAreaEditors = Array.from(document.querySelectorAll('.hackeditor > textarea'));
+                textAreaEditors
+                    .filter(e => e.closest('.taskForms') == null)
+                    .filter(e => editorsElements.length == 0 ? true : !editorsElements.includes(e.id))
+                    .forEach(editorTextArea => {
+                        const editor = setupHackEditor({
+                            editorOptions: {
+                                element: editorTextArea,
+                                initialValue: editorTextArea.value || editorTextArea.innerText,
+                                syncPreview: true,
+                                maxHeight: "300px",
+                                toolbarActionsHints,
+                                // Image options
+                                imageUploadMessages: IMAGE_UPLOAD_MESSAGES,
+                                imageUploadErrors,
+                                imageUploadClient: new ImagesClient(
+                                    'https://www.gnarususercontent.com.br/images',
+                                    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                                    1,
+                                    9191947
+                                ),
+                                allowImageUpload: editorTextArea.dataset.allowImageUpload,
+                                // Document options
+                                docUploadErrors,
+                                docUploadClient: new CourseDocumentsApiClient(
+                                    'https://www.gnarususercontent.com.br/documents',
+                                    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                                    1,
+                                    9191947
+                                ),
+                                allowDocUpload: editorTextArea.dataset.allowDocUpload
+                            },
+                            extensions: {
+                                DOMPurify,
+                                marked,
+                                hljs
+                            }
+                        });
+
+                        window.editors.push({
+                            instance: editor,
+                            element: editorTextArea,
+                        });
+
+                        enableForumButtons();
+                });
+            }
+
+            window.addEventListener('DOMContentLoaded', setupEditorsOnPage);
+            document.addEventListener('change', setupEditorsOnPage);
+            window.setupEditorsOnPage = setupEditorsOnPage;
+        </script>
+    
+    
+
+
+
+    
+        <script src="/assets/external-libs/clipboard.min.w.af8ab36589.js"></script>
+        <script src="/assets/external-libs/chatbot/interactjs.w.afa745688f.js"></script>
+        <script src="/assets/js/chatbot/chatbotInteractAnimate.w.bb950321df.js"></script>
+        <script src="/assets/js/chatbot/ChatbotUtils.w.efa669173a.js"></script>
+        <script src="/assets/js/chatbot/ChatbotImmersion.w.2be6431625.js"></script>
+        <script src="/assets/js/chatbot/ChatbotFullscreenHandler.w.15efa06839.js"></script>
+        <script>
+            new ChatbotImmersion({
+                codeAreaDefaultCopyMessage: "Copiar código",
+                codeAreaCopiedMessage: "Copiado!",
+                firstAssistantMessage: "Oi, eu sou a Luri :) Estou aqui para te ajudar caso tenha alguma dúvida no conteúdo da aula.",
+                couldNotReplyMessage: "Oi, estudante! Estamos passando por um problema temporário e a Luri não está funcionando no momento. Estamos trabalhando para retornar o mais rápido possível!",
+                upvoteIconAltMessage: "Ícone do polegar para cima, indicando que a resposta te ajudou",
+                downvoteIconAltMessage: "Ícone do polegar para baixo, indicando que a resposta não te ajudou",
+                copyIconAltMessage: "Copiar texto da Luri para área de transferêcia",
+                upvoteIconTooltipMessage: "Resposta boa",
+                downvoteIconTooltipMessage: "Resposta ruim",
+                copyIconTooltipMessage: "Copiar"
+            }, 9191947).setupListeners();
+            new ChatbotFullscreenHandler();
+        </script>
+    
+    <script src="https://www.youtube.com/iframe_api" async></script>
+    <script type="text/javascript" src="/assets/js/immersion/progressClassYouTube.w.47cb5a550b.js"></script>
+    <script src="/assets/js/immersion/ImmersionClass.w.47787ea6cc.js"></script>
+
+<script src="/assets/js/IframeChecker.w.0a974f5824.js"></script>
+<script src="/assets/js/gnarus/search/SendDataFromSearchToGA.w.7ba33b26a8.js"></script>
+<script>
+	new SendDataFromSearchToGA();
+</script>
+</body>
+</html>
+
